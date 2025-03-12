@@ -1,0 +1,37 @@
+# FFmpeg output and log files
+logs/
+*.log
+# Preserve the persistent logs
+!logs/stream_all.log
+!logs/stream.log
+!logs/benchmark_summary.txt
+
+# Unique ID file
+.uuid
+
+# Downloaded videos directory
+videos/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Executables
+*.exe
+*.out
+*.app
+
+# User-specific settings
+config.local.sh
